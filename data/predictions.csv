@@ -1,0 +1,8 @@
+bug_description,developer,priority,confidence,timestamp
+Payment gateway timeout,Developer_E,Critical,42.03
+Login page crashes,Developer_E,High,55.19
+Password reset email not sent,Developer_E,Critical,49.92
+Dashboard loading slowly,Developer_C,High,65.35
+Profile image upload fails,Developer_C,Medium,50.77
+Payment service timeout,Developer_E,Critical,42.03
+Payment gateway timeout error,Developer_E,High,39.46

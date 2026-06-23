@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug Analytics Dashboard</title>
+    <a href="/export_pdf">
+    <button>
+        Download PDF Report
+    </button>
+</a>
+</head>
+
+<body>
+
+<h1>📊 Bug Analytics Dashboard</h1>
+
+<h2>Total Bugs: {{ total_bugs }}</h2>
+
+<h2>High Priority Bugs: {{ high_priority }}</h2>
+
+<h2>Critical Bugs: {{ critical_priority }}</h2>
+
+<hr>
+
+
+<h2>Developer Workload</h2>
+<img src="{{ url_for('static', filename='developer_chart.png') }}" width="500">
+
+<h2>Priority Distribution</h2>
+<img src="{{ url_for('static', filename='priority_chart.png') }}" width="500">
+<br>
+
+<a href="/">⬅ Back to Home</a>
+<h2>Bug Trend Analytics</h2>
+
+<table border="1">
+<tr>
+    <th>Date</th>
+    <th>Bugs Submitted</th>
+</tr>
+
+{% for date,count in trend_data.items() %}
+<tr>
+    <td>{{ date }}</td>
+    <td>{{ count }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>

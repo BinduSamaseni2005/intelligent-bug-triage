@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Similar Bug Search</title>
+
+</head>
+
+<body>
+
+<h1>🔍 Similar Bug Search</h1>
+
+<form action="/search_similar" method="POST">
+
+<input
+type="text"
+name="bug"
+placeholder="Enter bug description"
+required
+style="width:500px;"
+>
+
+<button type="submit">
+
+Search
+
+</button>
+
+</form>
+
+{% if results %}
+
+<hr>
+
+<h2>Query:</h2>
+
+<p>{{query}}</p>
+
+<h2>Top Similar Bugs</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Bug Description</th>
+<th>Similarity %</th>
+
+</tr>
+
+{% for bug,score in results %}
+
+<tr>
+
+<td>{{bug}}</td>
+<td>{{score}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+{% endif %}
+
+</body>
+</html>

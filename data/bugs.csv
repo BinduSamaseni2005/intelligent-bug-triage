@@ -1,0 +1,201 @@
+bug_id,bug_description,module,bug_type,severity,status,developer,priority,created_date
+BUG001,Dashboard API timeout error,Dashboard,Database,Critical,Open,Developer_C,Critical,2026-03-07
+BUG002,Inventory records duplicated,Inventory,Mobile,Medium,In Progress,Developer_E,Medium,2026-06-28
+BUG003,Notifications page freezes unexpectedly,Notifications,Backend,Medium,Resolved,Developer_C,Medium,2026-01-15
+BUG004,Search page crashes on submit,Search,Frontend,Low,Open,Developer_E,Low,2026-08-12
+BUG005,Reports records duplicated,Reports,Backend,High,Closed,Developer_E,High,2026-12-17
+BUG006,User Profile export fails for large files,User Profile,Security,Critical,Open,Developer_C,Critical,2026-05-10
+BUG007,Settings validation failure,Settings,Database,High,Closed,Developer_B,High,2026-06-28
+BUG008,Notifications export fails for large files,Notifications,Backend,Critical,Open,Developer_C,Critical,2026-06-01
+BUG009,Settings notifications not sent,Settings,Mobile,High,Resolved,Developer_E,High,2026-05-10
+BUG010,Reports records duplicated,Reports,Frontend,Critical,Open,Developer_E,Critical,2026-09-16
+BUG011,Inventory records duplicated,Inventory,Backend,Low,Open,Developer_E,Low,2026-03-03
+BUG012,Database notifications not sent,Database,Backend,High,Resolved,Developer_D,High,2026-10-07
+BUG013,Inventory records duplicated,Inventory,Security,Medium,In Progress,Developer_E,Medium,2026-07-23
+BUG014,Orders records duplicated,Orders,Frontend,Critical,Closed,Developer_E,Critical,2026-07-07
+BUG015,Settings export fails for large files,Settings,Database,Critical,Closed,Developer_D,Critical,2026-08-02
+BUG016,Settings notifications not sent,Settings,Security,Low,Resolved,Developer_E,Low,2026-05-14
+BUG017,Payments API timeout error,Payments,Mobile,Medium,In Progress,Developer_B,Medium,2026-09-03
+BUG018,API module returns 500 error,API,Backend,Low,Closed,Developer_D,Low,2026-01-15
+BUG019,Analytics page crashes on submit,Analytics,Frontend,High,Resolved,Developer_E,High,2026-12-06
+BUG020,Settings validation failure,Settings,Database,High,Open,Developer_A,High,2026-06-24
+BUG021,Notifications page freezes unexpectedly,Notifications,Backend,Medium,In Progress,Developer_C,Medium,2026-05-14
+BUG022,Inventory module returns 500 error,Inventory,Security,Critical,Open,Developer_E,Critical,2026-05-21
+BUG023,Inventory API timeout error,Inventory,Database,Critical,In Progress,Developer_E,Critical,2026-06-16
+BUG024,Messaging functionality broken,Messaging,Security,Low,In Progress,Developer_E,Low,2026-06-07
+BUG025,Payments page freezes unexpectedly,Payments,Security,High,Open,Developer_B,High,2026-01-17
+BUG026,Search API timeout error,Search,Mobile,High,Closed,Developer_E,High,2026-12-20
+BUG027,Authentication validation failure,Authentication,Database,Critical,Open,Developer_A,Critical,2026-10-17
+BUG028,Reports validation failure,Reports,Database,Medium,Open,Developer_E,Medium,2026-06-17
+BUG029,Analytics records duplicated,Analytics,Database,Medium,Open,Developer_E,Medium,2026-05-20
+BUG030,Database page crashes on submit,Database,Database,Medium,Open,Developer_D,Medium,2026-01-25
+BUG031,Analytics validation failure,Analytics,Mobile,Medium,In Progress,Developer_E,Medium,2026-10-14
+BUG032,Settings data not loading,Settings,Database,Low,Resolved,Developer_C,Low,2026-11-02
+BUG033,Settings module returns 500 error,Settings,Backend,Low,Open,Developer_D,Low,2026-04-03
+BUG034,Payments notifications not sent,Payments,Frontend,Critical,Resolved,Developer_B,Critical,2026-02-08
+BUG035,Orders export fails for large files,Orders,Database,Medium,Closed,Developer_E,Medium,2026-07-08
+BUG036,Billing functionality broken,Billing,Database,Low,In Progress,Developer_B,Low,2026-12-05
+BUG037,Billing module returns 500 error,Billing,Backend,High,Resolved,Developer_B,High,2026-09-03
+BUG038,API export fails for large files,API,Mobile,Low,In Progress,Developer_D,Low,2026-05-15
+BUG039,Authentication page freezes unexpectedly,Authentication,Database,High,Open,Developer_A,High,2026-01-21
+BUG040,User Profile records duplicated,User Profile,Frontend,Medium,In Progress,Developer_C,Medium,2026-12-06
+BUG041,Analytics API timeout error,Analytics,Database,Critical,Open,Developer_E,Critical,2026-07-07
+BUG042,Orders page crashes on submit,Orders,Frontend,Critical,Closed,Developer_E,Critical,2026-11-13
+BUG043,Search records duplicated,Search,Database,High,In Progress,Developer_E,High,2026-07-26
+BUG044,User Profile API timeout error,User Profile,Database,Medium,Resolved,Developer_C,Medium,2026-10-05
+BUG045,Messaging page crashes on submit,Messaging,Security,Low,Open,Developer_E,Low,2026-03-12
+BUG046,Inventory API timeout error,Inventory,Database,Low,In Progress,Developer_E,Low,2026-08-16
+BUG047,Billing records duplicated,Billing,Frontend,High,Open,Developer_B,High,2026-06-10
+BUG048,User Profile export fails for large files,User Profile,Database,High,Open,Developer_C,High,2026-06-01
+BUG049,Analytics functionality broken,Analytics,Frontend,Medium,Resolved,Developer_E,Medium,2026-05-18
+BUG050,API module returns 500 error,API,Security,Critical,Resolved,Developer_D,Critical,2026-08-03
+BUG051,Billing functionality broken,Billing,Security,Critical,Closed,Developer_B,Critical,2026-05-20
+BUG052,Settings API timeout error,Settings,Database,Medium,In Progress,Developer_D,Medium,2026-06-06
+BUG053,Payments export fails for large files,Payments,Backend,Low,In Progress,Developer_B,Low,2026-01-04
+BUG054,Dashboard page freezes unexpectedly,Dashboard,Database,Medium,In Progress,Developer_C,Medium,2026-11-11
+BUG055,Payments export fails for large files,Payments,Mobile,Low,In Progress,Developer_B,Low,2026-06-04
+BUG056,Payments API timeout error,Payments,Security,Critical,Resolved,Developer_B,Critical,2026-02-15
+BUG057,Analytics notifications not sent,Analytics,Database,High,Open,Developer_E,High,2026-02-12
+BUG058,Messaging notifications not sent,Messaging,Backend,Medium,Open,Developer_E,Medium,2026-12-24
+BUG059,Orders validation failure,Orders,Frontend,High,Resolved,Developer_E,High,2026-02-16
+BUG060,Billing module returns 500 error,Billing,Backend,High,In Progress,Developer_B,High,2026-11-21
+BUG061,Authentication export fails for large files,Authentication,Backend,High,Open,Developer_A,High,2026-09-05
+BUG062,Search notifications not sent,Search,Mobile,Critical,Closed,Developer_E,Critical,2026-10-09
+BUG063,Dashboard records duplicated,Dashboard,Security,High,Open,Developer_C,High,2026-02-12
+BUG064,Database records duplicated,Database,Frontend,Medium,Resolved,Developer_D,Medium,2026-04-20
+BUG065,Orders validation failure,Orders,Backend,Medium,Closed,Developer_E,Medium,2026-03-12
+BUG066,Search data not loading,Search,Security,High,In Progress,Developer_E,High,2026-03-27
+BUG067,Reports data not loading,Reports,Security,Medium,Closed,Developer_E,Medium,2026-09-23
+BUG068,Payments functionality broken,Payments,Backend,Medium,Open,Developer_B,Medium,2026-07-04
+BUG069,Authentication validation failure,Authentication,Backend,Low,Resolved,Developer_A,Low,2026-03-02
+BUG070,Orders records duplicated,Orders,Database,Critical,Resolved,Developer_E,Critical,2026-01-14
+BUG071,Search data not loading,Search,Backend,Low,Open,Developer_E,Low,2026-06-12
+BUG072,Authentication notifications not sent,Authentication,Frontend,High,Resolved,Developer_A,High,2026-09-26
+BUG073,API data not loading,API,Mobile,Critical,Closed,Developer_D,Critical,2026-11-05
+BUG074,Reports module returns 500 error,Reports,Frontend,Medium,In Progress,Developer_E,Medium,2026-08-02
+BUG075,Dashboard records duplicated,Dashboard,Database,High,In Progress,Developer_C,High,2026-07-28
+BUG076,Billing module returns 500 error,Billing,Database,Critical,Open,Developer_B,Critical,2026-07-19
+BUG077,Inventory page freezes unexpectedly,Inventory,Frontend,Critical,Open,Developer_E,Critical,2026-03-27
+BUG078,Payments API timeout error,Payments,Mobile,Low,Resolved,Developer_B,Low,2026-05-07
+BUG079,Search validation failure,Search,Database,Critical,Open,Developer_E,Critical,2026-08-28
+BUG080,Analytics validation failure,Analytics,Security,Low,In Progress,Developer_E,Low,2026-02-16
+BUG081,Analytics module returns 500 error,Analytics,Security,Low,Resolved,Developer_E,Low,2026-08-27
+BUG082,Dashboard data not loading,Dashboard,Backend,Low,In Progress,Developer_C,Low,2026-06-02
+BUG083,Search records duplicated,Search,Frontend,Critical,Closed,Developer_E,Critical,2026-07-07
+BUG084,Authentication notifications not sent,Authentication,Backend,Low,Resolved,Developer_A,Low,2026-09-06
+BUG085,Authentication page crashes on submit,Authentication,Database,Medium,Open,Developer_A,Medium,2026-07-04
+BUG086,Analytics page crashes on submit,Analytics,Backend,Low,In Progress,Developer_E,Low,2026-11-02
+BUG087,Billing validation failure,Billing,Security,High,In Progress,Developer_B,High,2026-02-08
+BUG088,Dashboard page crashes on submit,Dashboard,Database,High,Open,Developer_C,High,2026-03-19
+BUG089,User Profile validation failure,User Profile,Mobile,Medium,Open,Developer_C,Medium,2026-05-23
+BUG090,Authentication export fails for large files,Authentication,Mobile,Low,Resolved,Developer_A,Low,2026-09-22
+BUG091,Search module returns 500 error,Search,Frontend,Critical,Closed,Developer_E,Critical,2026-12-23
+BUG092,Search notifications not sent,Search,Backend,Critical,Resolved,Developer_E,Critical,2026-10-28
+BUG093,Messaging page crashes on submit,Messaging,Database,High,In Progress,Developer_E,High,2026-11-06
+BUG094,User Profile records duplicated,User Profile,Frontend,Low,Open,Developer_C,Low,2026-10-13
+BUG095,Messaging export fails for large files,Messaging,Security,High,Closed,Developer_E,High,2026-06-19
+BUG096,Orders validation failure,Orders,Mobile,Critical,In Progress,Developer_E,Critical,2026-08-21
+BUG097,Notifications page freezes unexpectedly,Notifications,Database,Low,In Progress,Developer_C,Low,2026-11-23
+BUG098,Database notifications not sent,Database,Backend,High,Resolved,Developer_D,High,2026-06-01
+BUG099,Database functionality broken,Database,Database,Low,Open,Developer_D,Low,2026-11-19
+BUG100,API functionality broken,API,Backend,Critical,Resolved,Developer_D,Critical,2026-08-28
+BUG101,Notifications functionality broken,Notifications,Mobile,Medium,Open,Developer_C,Medium,2026-08-05
+BUG102,Search data not loading,Search,Mobile,Critical,In Progress,Developer_E,Critical,2026-06-18
+BUG103,Database functionality broken,Database,Backend,Low,In Progress,Developer_D,Low,2026-05-15
+BUG104,User Profile page freezes unexpectedly,User Profile,Database,Low,Open,Developer_C,Low,2026-06-06
+BUG105,API data not loading,API,Mobile,High,In Progress,Developer_D,High,2026-06-12
+BUG106,Search functionality broken,Search,Frontend,Medium,Closed,Developer_E,Medium,2026-07-11
+BUG107,Inventory API timeout error,Inventory,Mobile,Critical,In Progress,Developer_E,Critical,2026-07-16
+BUG108,Database module returns 500 error,Database,Security,High,Open,Developer_D,High,2026-02-11
+BUG109,Notifications API timeout error,Notifications,Backend,High,Open,Developer_C,High,2026-05-13
+BUG110,Database export fails for large files,Database,Backend,Low,In Progress,Developer_D,Low,2026-08-15
+BUG111,Reports records duplicated,Reports,Security,Medium,Closed,Developer_E,Medium,2026-03-01
+BUG112,Inventory functionality broken,Inventory,Security,Critical,In Progress,Developer_E,Critical,2026-08-02
+BUG113,Payments data not loading,Payments,Security,Low,Open,Developer_B,Low,2026-03-24
+BUG114,Settings API timeout error,Settings,Database,High,Open,Developer_A,High,2026-06-15
+BUG115,Payments module returns 500 error,Payments,Database,Critical,In Progress,Developer_B,Critical,2026-06-26
+BUG116,Reports records duplicated,Reports,Database,Low,Open,Developer_E,Low,2026-04-13
+BUG117,Analytics validation failure,Analytics,Security,Low,Open,Developer_E,Low,2026-03-05
+BUG118,User Profile export fails for large files,User Profile,Security,High,Resolved,Developer_C,High,2026-07-23
+BUG119,Notifications module returns 500 error,Notifications,Database,Low,Open,Developer_C,Low,2026-09-06
+BUG120,Messaging API timeout error,Messaging,Security,High,Closed,Developer_E,High,2026-06-21
+BUG121,Settings page crashes on submit,Settings,Frontend,Low,Closed,Developer_A,Low,2026-12-09
+BUG122,API functionality broken,API,Database,Low,Closed,Developer_D,Low,2026-12-25
+BUG123,Notifications page freezes unexpectedly,Notifications,Security,Critical,Closed,Developer_C,Critical,2026-07-05
+BUG124,Settings records duplicated,Settings,Frontend,High,Resolved,Developer_C,High,2026-04-19
+BUG125,Database API timeout error,Database,Mobile,Medium,Resolved,Developer_D,Medium,2026-05-05
+BUG126,Analytics module returns 500 error,Analytics,Mobile,Low,In Progress,Developer_E,Low,2026-11-15
+BUG127,Analytics records duplicated,Analytics,Mobile,Medium,Resolved,Developer_E,Medium,2026-08-09
+BUG128,Orders API timeout error,Orders,Mobile,High,Closed,Developer_E,High,2026-02-01
+BUG129,Dashboard page crashes on submit,Dashboard,Database,Low,In Progress,Developer_C,Low,2026-04-21
+BUG130,Dashboard module returns 500 error,Dashboard,Mobile,High,In Progress,Developer_C,High,2026-01-09
+BUG131,Notifications data not loading,Notifications,Mobile,Critical,Resolved,Developer_C,Critical,2026-01-24
+BUG132,Database API timeout error,Database,Security,Low,Open,Developer_D,Low,2026-02-05
+BUG133,API page freezes unexpectedly,API,Security,Critical,Resolved,Developer_D,Critical,2026-11-24
+BUG134,Billing module returns 500 error,Billing,Backend,Medium,Open,Developer_B,Medium,2026-01-08
+BUG135,Billing notifications not sent,Billing,Mobile,Medium,Resolved,Developer_B,Medium,2026-04-04
+BUG136,Inventory export fails for large files,Inventory,Backend,Low,Closed,Developer_E,Low,2026-08-21
+BUG137,Reports export fails for large files,Reports,Database,Critical,Resolved,Developer_E,Critical,2026-11-01
+BUG138,Search validation failure,Search,Frontend,Low,In Progress,Developer_E,Low,2026-03-08
+BUG139,Authentication validation failure,Authentication,Frontend,Critical,Resolved,Developer_A,Critical,2026-04-01
+BUG140,Dashboard API timeout error,Dashboard,Backend,Low,Open,Developer_C,Low,2026-12-05
+BUG141,Search data not loading,Search,Database,Critical,Open,Developer_E,Critical,2026-01-28
+BUG142,Dashboard records duplicated,Dashboard,Mobile,Critical,Resolved,Developer_C,Critical,2026-10-07
+BUG143,User Profile records duplicated,User Profile,Security,Medium,In Progress,Developer_C,Medium,2026-07-25
+BUG144,Notifications records duplicated,Notifications,Mobile,Medium,Resolved,Developer_C,Medium,2026-06-08
+BUG145,Database export fails for large files,Database,Database,Low,In Progress,Developer_D,Low,2026-05-12
+BUG146,Notifications module returns 500 error,Notifications,Backend,Low,Closed,Developer_C,Low,2026-06-22
+BUG147,Authentication API timeout error,Authentication,Frontend,Medium,Closed,Developer_A,Medium,2026-02-15
+BUG148,Analytics validation failure,Analytics,Database,High,In Progress,Developer_E,High,2026-05-06
+BUG149,Database records duplicated,Database,Backend,High,Resolved,Developer_D,High,2026-01-07
+BUG150,Search page freezes unexpectedly,Search,Mobile,High,Resolved,Developer_E,High,2026-12-25
+BUG151,Reports functionality broken,Reports,Security,Medium,In Progress,Developer_E,Medium,2026-06-18
+BUG152,Notifications page crashes on submit,Notifications,Frontend,High,Closed,Developer_C,High,2026-02-20
+BUG153,Notifications export fails for large files,Notifications,Mobile,High,Resolved,Developer_C,High,2026-09-03
+BUG154,Settings API timeout error,Settings,Frontend,Medium,In Progress,Developer_D,Medium,2026-08-05
+BUG155,User Profile validation failure,User Profile,Database,Medium,Resolved,Developer_C,Medium,2026-07-01
+BUG156,Orders data not loading,Orders,Mobile,Critical,Closed,Developer_E,Critical,2026-04-21
+BUG157,Orders data not loading,Orders,Mobile,Critical,Resolved,Developer_E,Critical,2026-01-20
+BUG158,Settings records duplicated,Settings,Security,Low,Open,Developer_A,Low,2026-06-28
+BUG159,Authentication page freezes unexpectedly,Authentication,Backend,High,Resolved,Developer_A,High,2026-03-07
+BUG160,Billing page freezes unexpectedly,Billing,Mobile,Critical,Resolved,Developer_B,Critical,2026-02-17
+BUG161,API export fails for large files,API,Security,Low,Open,Developer_D,Low,2026-01-12
+BUG162,Authentication export fails for large files,Authentication,Security,Medium,In Progress,Developer_A,Medium,2026-12-17
+BUG163,Dashboard records duplicated,Dashboard,Backend,Low,Closed,Developer_C,Low,2026-03-28
+BUG164,API export fails for large files,API,Mobile,Medium,Open,Developer_D,Medium,2026-10-17
+BUG165,Analytics notifications not sent,Analytics,Mobile,High,Resolved,Developer_E,High,2026-12-25
+BUG166,Notifications data not loading,Notifications,Security,Medium,Resolved,Developer_C,Medium,2026-08-01
+BUG167,Analytics page crashes on submit,Analytics,Database,High,Resolved,Developer_E,High,2026-04-17
+BUG168,Reports records duplicated,Reports,Database,Low,Open,Developer_E,Low,2026-11-13
+BUG169,Billing notifications not sent,Billing,Backend,Low,Open,Developer_B,Low,2026-10-20
+BUG170,Notifications module returns 500 error,Notifications,Security,Medium,In Progress,Developer_C,Medium,2026-10-08
+BUG171,Settings page freezes unexpectedly,Settings,Security,High,Closed,Developer_D,High,2026-04-11
+BUG172,Inventory data not loading,Inventory,Security,Low,Open,Developer_E,Low,2026-08-07
+BUG173,Notifications data not loading,Notifications,Database,Medium,Open,Developer_C,Medium,2026-03-04
+BUG174,Database data not loading,Database,Frontend,Critical,Open,Developer_D,Critical,2026-09-20
+BUG175,User Profile validation failure,User Profile,Database,Critical,Resolved,Developer_C,Critical,2026-12-28
+BUG176,Messaging export fails for large files,Messaging,Database,High,Open,Developer_E,High,2026-12-05
+BUG177,User Profile API timeout error,User Profile,Frontend,Low,Resolved,Developer_C,Low,2026-01-19
+BUG178,Notifications export fails for large files,Notifications,Database,Critical,Open,Developer_C,Critical,2026-10-22
+BUG179,Reports export fails for large files,Reports,Database,Medium,In Progress,Developer_E,Medium,2026-07-18
+BUG180,API page freezes unexpectedly,API,Security,Low,Resolved,Developer_D,Low,2026-01-08
+BUG181,API functionality broken,API,Mobile,Low,Resolved,Developer_D,Low,2026-08-07
+BUG182,Inventory page freezes unexpectedly,Inventory,Mobile,Medium,Closed,Developer_E,Medium,2026-11-24
+BUG183,Settings validation failure,Settings,Security,Low,Closed,Developer_C,Low,2026-07-21
+BUG184,User Profile notifications not sent,User Profile,Backend,Critical,In Progress,Developer_C,Critical,2026-11-07
+BUG185,Messaging page freezes unexpectedly,Messaging,Security,Low,Closed,Developer_E,Low,2026-06-25
+BUG186,User Profile page crashes on submit,User Profile,Mobile,Medium,In Progress,Developer_C,Medium,2026-08-16
+BUG187,User Profile notifications not sent,User Profile,Frontend,Critical,Closed,Developer_C,Critical,2026-10-03
+BUG188,Authentication API timeout error,Authentication,Database,Critical,Closed,Developer_A,Critical,2026-01-11
+BUG189,Settings functionality broken,Settings,Frontend,Medium,In Progress,Developer_B,Medium,2026-01-24
+BUG190,Notifications validation failure,Notifications,Backend,Medium,Closed,Developer_C,Medium,2026-01-10
+BUG191,Reports page crashes on submit,Reports,Database,Medium,Closed,Developer_E,Medium,2026-08-10
+BUG192,Orders functionality broken,Orders,Security,Low,Resolved,Developer_E,Low,2026-11-03
+BUG193,Notifications notifications not sent,Notifications,Backend,Critical,Closed,Developer_C,Critical,2026-09-23
+BUG194,Dashboard export fails for large files,Dashboard,Security,Medium,Resolved,Developer_C,Medium,2026-11-22
+BUG195,Analytics export fails for large files,Analytics,Frontend,Medium,Closed,Developer_E,Medium,2026-07-28
+BUG196,Notifications export fails for large files,Notifications,Database,Medium,Closed,Developer_C,Medium,2026-11-13
+BUG197,Inventory page crashes on submit,Inventory,Security,Low,In Progress,Developer_E,Low,2026-10-17
+BUG198,Payments data not loading,Payments,Frontend,High,Closed,Developer_B,High,2026-10-20
+BUG199,Payments module returns 500 error,Payments,Security,High,Open,Developer_B,High,2026-04-20
+BUG200,Database API timeout error,Database,Frontend,Medium,Closed,Developer_D,Medium,2026-03-15
