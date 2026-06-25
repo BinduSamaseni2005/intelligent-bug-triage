@@ -1,4 +1,3 @@
-
 # Intelligent Bug Triage System
 
 ## Features
@@ -21,21 +20,22 @@
 ## Screenshots
 
 ### Home Page
-(Add Screenshot)
 
-### Prediction Result
-(Add Screenshot)
+![Home Page](screenshots/home-page.png)
+
 
 ### Similar Bug Search
-(Add Screenshot)
+
+![Similar Bug Search](screenshots/similar-bug-search.png)
 
 ### Dashboard
-(Add Screenshot)
 
-### PDF Report
-(Add Screenshot)
+![Dashboard](screenshots/dashboard-1.png)
+![Dashboard](screenshots/dashboard.png)
+
 
 ## Run Project
 
+```bash
 pip install -r requirements.txt
 python app.py
