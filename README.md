@@ -20,20 +20,21 @@
 ## Screenshots
 
 ### Home Page
-
 ![Home Page](screenshots/home-page.png)
 
-
 ### Similar Bug Search
-
 ![Similar Bug Search](screenshots/similar-bug-search.png)
 
-### Dashboard
-
+### Analytics Dashboard
 ![Dashboard](screenshots/dashboard.png)
+
 ![Dashboard](screenshots/dashboard-1.png)
+## Run Project
 
-
+```bash
+pip install -r requirements.txt
+python app.py
+```
 ## Run Project
 
 ```bash
