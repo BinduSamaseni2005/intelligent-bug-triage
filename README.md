@@ -21,12 +21,12 @@
 
 ### Home Page
 
-![Home Page](screenshots/home_page.png)
+![Home Page](screenshots/home-page.png)
 
 
 ### Similar Bug Search
 
-![Similar Bug Search](screenshots/similar_bug_search.png)
+![Similar Bug Search](screenshots/similar-bug-search.png)
 
 ### Dashboard
 
