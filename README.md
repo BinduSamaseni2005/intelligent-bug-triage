@@ -21,17 +21,17 @@
 
 ### Home Page
 
-![Home Page](screenshots/home-page.png)
+![Home Page](screenshots/home_page.png)
 
 
 ### Similar Bug Search
 
-![Similar Bug Search](screenshots/similar-bug-search.png)
+![Similar Bug Search](screenshots/similar_bug_search.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard-1.png)
 ![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard-1.png)
 
 
 ## Run Project
