@@ -28,28 +28,16 @@ An AI-powered bug management system that automatically predicts the most suitabl
 ## Screenshots
 
 ### Home Page
-
-![Home Page](home-page.png)
-
-The main interface where users can enter bug descriptions and receive developer assignment and priority predictions.
+![Home Page](screenshots/home-page.png)
 
 ### Similar Bug Search
-
-![Similar Bug Search](similar-bug-search.png)
-
-Searches historical bug reports and returns the most similar bugs using machine learning similarity matching.
+![Similar Bug Search](screenshots/similar-bug-search.png)
 
 ### Analytics Dashboard
-
-![Analytics Dashboard](dashboard.png)
-
-Displays project statistics, developer workload distribution, priority distribution, and bug analytics.
+![Analytics Dashboard](screenshots/dashboard.png)
 
 ### Bug Trend Analytics
-
-![Bug Trend Analytics](dashboard-1.png)
-
-Shows historical bug submission trends and overall project health metrics.
+![Bug Trend Analytics](screenshots/dashboard-1.png)
 
 ## Project Structure
 
