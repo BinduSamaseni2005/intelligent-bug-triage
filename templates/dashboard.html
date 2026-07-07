@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Bug Analytics Dashboard</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f6f9;
+    padding:30px;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px lightgray;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.card{
+    flex:1;
+    min-width:150px;
+    background:#eef4ff;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card h3{
+    margin:0;
+}
+
+.card p{
+    font-size:24px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid #ddd;
+}
+
+th{
+    background:#007bff;
+    color:white;
+}
+
+th,td{
+    padding:10px;
+    text-align:left;
+}
+
+img{
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.nav{
+    margin-bottom:20px;
+}
+
+.nav a{
+    text-decoration:none;
+    margin-right:15px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="nav">
+    <a href="/">🏠 Home</a>
+    <a href="/similar">🔍 Similar Bug Search</a>
+</div>
+
+<a href="/export_pdf">
+    <button>📄 Download PDF Report</button>
+</a>
+
+<h1>📊 Bug Analytics Dashboard</h1>
+
+<h2>Total Predictions: {{ total_bugs }}</h2>
+
+<div class="stats">
+
+    <div class="card">
+        <h3>P1</h3>
+        <p>{{ priority_counts.get('P1',0) }}</p>
+    </div>
+
+    <div class="card">
+        <h3>P2</h3>
+        <p>{{ priority_counts.get('P2',0) }}</p>
+    </div>
+
+    <div class="card">
+        <h3>P3</h3>
+        <p>{{ priority_counts.get('P3',0) }}</p>
+    </div>
+
+    <div class="card">
+        <h3>P4</h3>
+        <p>{{ priority_counts.get('P4',0) }}</p>
+    </div>
+
+    <div class="card">
+        <h3>P5</h3>
+        <p>{{ priority_counts.get('P5',0) }}</p>
+    </div>
+
+</div>
+
+<hr>
+
+<h2>Priority Distribution</h2>
+
+<img
+src="{{ url_for('static', filename='priority_chart.png') }}"
+width="700">
+
+<hr>
+
+<h2>📈 Bug Trend Analytics</h2>
+
+<table>
+
+<tr>
+    <th>Date</th>
+    <th>Bugs Submitted</th>
+</tr>
+
+{% for date,count in trend_data.items() %}
+
+<tr>
+    <td>{{ date }}</td>
+    <td>{{ count }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/">⬅ Back to Home</a>
+
+</div>
+
+</body>
+</html>

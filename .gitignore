@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+archive.zip
+bug_report.pdf
+
+gitbugs/
+
+data/real_bugs.csv
+
+models/developer_model.pkl
+
+.venv/
+venv/
