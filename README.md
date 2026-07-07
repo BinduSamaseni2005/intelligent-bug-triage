@@ -45,11 +45,7 @@ Searches historical bug reports and returns the most similar bugs using machine 
 
 Displays project statistics, developer workload distribution, priority distribution, and bug analytics.
 
-### Bug Trend Analytics
 
-![Bug Trend Analytics](dashboard-1.png)
-
-Shows historical bug submission trends and overall project health metrics.
 
 ## Project Structure
 
